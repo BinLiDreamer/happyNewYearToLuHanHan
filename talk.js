@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('好的呀，余生请多指教呀！这是我以你之名送你的烟花(^_^)', function() {
+        modal('好的呀，余生请多指教呀！这是我们的第一个520，就送你一片烟花吧！(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -18,15 +18,15 @@ function A() {
 }
 
 function B() {
-    modal('相隔千里，也不能阻止我们的相遇相知！', C);
+    modal('相隔千里，也不能阻止我们的相遇相知相爱！', C);
 }
 
 function C() {
-    modal('佛说：前世五百次的回眸才能换来今生的相遇', D);
+    modal('佛说前世五百次的回眸才能换来今生的相遇', D);
 }
 
 function D() {
-    modal('我说：为了今生的相遇，我在佛前求了五百年', E);
+    modal('为了今生的相遇，我在佛前求了五百年', E);
 }
 
 function E() {
@@ -46,11 +46,11 @@ function H() {
 }
 
 function I() {
-    modal('这是我们的第一个520，送你一片烟花吧！', J)
+    modal('这是来自千里之外的彬先生此时此刻想说的话！', J)
 }
 
 function J() {
-    modal('以你之名，送你一片星辰大海和烟花！', function() {
+    modal('这也是我们的第一个520，就送你一片烟花吧！', function() {
         fireworks();
     });
 }
@@ -65,7 +65,7 @@ function modal(content, callback) {
         '<div class="mask"></div>'+
         '<div class="modal">'+
         '<p>'+ content +'</p>'+
-        '<button type="button" id="confirm" class="confirm">收到幸福</button>'+
+        '<button type="button" id="confirm" class="confirm">我想说</button>'+
         '</div>'+
         '</div>';
     $('body').append(tpl);
