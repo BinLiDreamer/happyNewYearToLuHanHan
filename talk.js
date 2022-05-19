@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('好的呀，余生请多指教呀！这是我们的第一个520，就送你一片烟花吧！(^_^)', function() {
+        modal('余生请多指教呀！这是我们的第一个520，就送你一片烟花吧！(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
