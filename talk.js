@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小姐姐您一定会愿意的。(^_^)', function() {
+        modal('好的呀，余生请多指教呀！这是我以你之名送你的烟花(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,48 +9,48 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal('在这茫茫人海，相隔千里', A);
     });
 });
 
 function A() {
-    modal('我喜欢你！', B);
+    modal('我们超越了时空和人海！', B);
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('相隔千里，也不能阻止我们的相遇相知！', C);
 }
 
 function C() {
-    modal('请您不要拒绝我', D);
+    modal('佛说：前世五百次的回眸才能换来今生的相遇', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('我说：为了今生的相遇，我在佛前求了五百年', E);
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我', F);
+    modal('为了与你相遇相知相爱，我用尽了前世的运气！', F);
 }
 
 function F() {
-    modal('跟我走吧', G);
+    modal('感谢余生有你相伴，从此心有了安处！', G);
 }
 
 function G() {
-    modal('房产证上写你名', H);
+    modal('我会做饭，会带你去所有你想去的地方，', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('陪你哭陪你笑陪你度过余生！', I);
 }
 
 function I() {
-    modal('爱你。么么哒！', J)
+    modal('这是我们的第一个520，送你一片烟花吧！', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('以你之名，送你一片星辰大海和烟花！', function() {
         fireworks();
     });
 }
@@ -65,7 +65,7 @@ function modal(content, callback) {
         '<div class="mask"></div>'+
         '<div class="modal">'+
         '<p>'+ content +'</p>'+
-        '<button type="button" id="confirm" class="confirm">确定</button>'+
+        '<button type="button" id="confirm" class="confirm">收到幸福</button>'+
         '</div>'+
         '</div>';
     $('body').append(tpl);
