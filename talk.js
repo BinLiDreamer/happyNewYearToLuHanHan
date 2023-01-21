@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('余生请多指教呀！这是我们的第一个520，就送你一片烟花吧！(^_^)', function() {
+        modal('憨憨，这是我们认识到现在过的第一个年，就送你一片烟花吧！(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -18,7 +18,7 @@ function A() {
 }
 
 function B() {
-    modal('相隔千里，也不能阻止我们的相遇相知相爱！', C);
+    modal('相隔千里，也不能阻止我们相识相知！', C);
 }
 
 function C() {
@@ -26,23 +26,23 @@ function C() {
 }
 
 function D() {
-    modal('为了今生的相遇，我在佛前求了五百年', E);
+    modal('而我为了今生的相遇，在佛前求了五百年', E);
 }
 
 function E() {
-    modal('为了与你相遇相知相爱，我用尽了前世的运气！', F);
+    modal('与你相遇，我用尽了前世的运气！', F);
 }
 
 function F() {
-    modal('感谢余生有你相伴，从此心有了安处！', G);
+    modal('感谢有你相伴，心也有了安处！', G);
 }
 
 function G() {
-    modal('我会做饭，会带你去所有你想去的地方，', H);
+    modal('金虎辞旧，玉兔迎新，在平安的日子里，祝我们诸事皆顺，锦上添花', H);
 }
 
 function H() {
-    modal('陪你哭陪你笑陪你度过余生！', I);
+    modal('陪你哭陪你笑陪你一起走！', I);
 }
 
 function I() {
@@ -50,7 +50,7 @@ function I() {
 }
 
 function J() {
-    modal('这也是我们的第一个520，就送你一片烟花吧！', function() {
+    modal('漫漫人生路，我想和你一起走，送你一片烟花，希望不要嫌弃', function() {
         fireworks();
     });
 }
